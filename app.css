@@ -1,0 +1,229 @@
+    body {
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    ul,
+    li {
+        font-size: 1rem;
+        text-transform: capitalize;
+        color: white;
+        margin-top: 0%;
+        padding: .5%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .header {
+        background-image: url(assets/images/BackGround.png);
+        background-size: cover;
+        /* top: 0%; */
+        /* bottom: 0%; */
+        height: 80vh;
+        /* width: 100%; */
+        /* display: flex; */
+        /* float: left; */
+    }
+    
+    .nav {
+        width: 100%;
+        /* display: inline-block; */
+    }
+    
+    .nav:hover {
+        cursor: pointer;
+    }
+    
+    .span {
+        width: 70%;
+        display: flex;
+    }
+    
+    .zomato {
+        background-repeat: no-repeat;
+        width: 100%;
+        background-image: url(assets/images/Zomato-Logo.png);
+        background-size: 500px 100px;
+        background-position: 50% 100%;
+        height: 15vh;
+    }
+    
+    h2 {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 2.5rem;
+        font-weight: 300;
+        text-transform: capitalize;
+        color: white;
+        /* display: block; */
+        /* align-content: flex-end; */
+    }
+    
+    .search {
+        width: 100%;
+        text-align: center;
+        /* background-blend-mode: normal; */
+        /* display: inline-block; */
+        /* justify-content: center; */
+    }
+    
+    input {
+        background-image: url(assets/images/2900811_25530.jpg);
+        background-repeat: no-repeat;
+        background-size: 50px;
+        /* background-image: url(assets/images/icons8-search-24.png); */
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 50%;
+        height: 60px;
+        font-size: 1rem;
+        font-weight: 500;
+        padding-left: 2.5%;
+        cursor: text;
+        /* color: #801801; */
+    }
+    
+    .ss {
+        /* padding-left: 16%; */
+        position: absolute;
+        padding-top: 1%;
+        cursor: text;
+        padding-right: 4%;
+        display: flex;
+        left: 41%;
+    }
+    
+    .section {
+        padding-top: 80px;
+        margin: 0%;
+        width: 35%;
+        margin: auto;
+    }
+    
+    .photos {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .a {
+        width: 200px;
+        height: 150px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .photos_caption {
+        padding-top: 2%;
+        text-transform: capitalize;
+        font-size: 1rem;
+        letter-spacing: 0.7px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .desc {
+        padding-top: 3%;
+        width: 100%;
+        /* line-height: 1px; */
+    }
+    
+    h3 {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1.5rem;
+        font-weight: 300;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* text-align: center; */
+    }
+    
+    .places {
+        width: 70%;
+        height: 100px;
+        font-size: 18px;
+        padding-top: 1%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        /* line-height: 1px; */
+    }
+    
+    .cp {
+        /* font-size: 1.5rem; */
+        /* width: 30%; */
+        box-sizing: border-box;
+        font-weight: 500;
+        background-color: #f8f9fa;
+        margin: 0px 30px 0px 30px;
+        height: 70px;
+        width: 300px;
+        padding: 5px 0px 5px 10px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        box-shadow: 4px 4px #e5e5e5;
+    }
+    
+    h4 {
+        font-size: 0.9rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 1px;
+        /* padding-bottom: 10px; */
+    }
+    
+    .app {
+        width: 100%;
+        margin-top: 10%;
+        display: flex;
+        /* height: 100vh; */
+    }
+    
+    .iphone {
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+        /* background-image: url(assets/images/Iphone.png); */
+        /* background-color: black; */
+    }
+    
+    .iphone_img {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+    
+    .get {
+        width: 60%;
+    }
+    
+    .play {
+        width: 20%;
+    }
+    
+    .h {
+        padding-top: 10%;
+        /* margin-top: 10%; */
+        line-height: 1px;
+        margin: 0%;
+        font-weight: 300;
+        font-size: 2rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: capitalize;
+    }
+    
+    h6 {
+        padding: 0%;
+        margin: 3% 0% 1% 0%;
+        font-weight: 300;
+        font-size: 1em;
+    }
+    
+    @media only screen and (max-width: 786px) {}

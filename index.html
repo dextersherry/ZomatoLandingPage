@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato-Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- <img src="assets/images/BackGround.png" alt=""> -->
+        <header class="header">
+            <div class="nav">
+                <ul>
+                    <span class="span"><li class="a">Get the app</li></span>
+                    <li>Add restaurant</li>
+                    <li>log in</li>
+                    <li>sign up</li>
+
+                </ul>
+            </div>
+
+            <div class="zomato">
+            </div>
+            <h2>discover the best food and drinks in delhi NCR</h2>
+
+            <div class="search">
+                <form action="">
+                    <img id="img" class="ss" src="assets/images/icons8-search-24.png" alt=""> <input id="input" type=" search " placeholder="YWCA,1,Ashoka Rd,Hanu            Search for restaurant,cuisine or a dish ">
+                </form>
+            </div>
+        </header>
+
+
+        <!-- ! cards -->
+
+        <section class="section ">
+            <div class="photos ">
+                <img class="a " src="assets/images/Online-Food.png " alt=" ">
+                <img class="a " src="assets/images/Dine-Out.png " alt=" ">
+                <img class="a " src="assets/images/Night-Life.png " alt=" ">
+            </div>
+
+            <div class="photos_caption ">
+                <strong>order food online</strong>
+                <strong>Dining Out</strong>
+                <strong>Nightlife & clubs</strong>
+            </div>
+        </section>
+
+
+        <!--! locations-->
+
+        <section class="desc ">
+            <h3>Popular locations in and around delhi NCR</h3>
+            <div class="places ">
+                <span class="cp ">Cannaught Place <h4>388 places</h4></span><br>
+                <span class="cp ">Cannaught Place <h4>388 places</h4></span><br>
+                <span class="cp ">Cannaught Place <h4>388 places</h4></span><br>
+            </div>
+
+            <div class="places ">
+                <span class="cp ">Cannaught Place <h4>388 places</h4></span><br>
+                <span class="cp ">Cannaught Place <h4>388 places</h4></span><br>
+                <span class="cp ">Cannaught Place <h4>388 places</h4></span><br>
+            </div>
+
+            <div class="places ">
+                <span class="cp ">Cannaught Place <h4>388 places</h4></span><br>
+                <span class="cp ">Cannaught Place <h4>388 places</h4></span><br>
+                <span class="cp ">Cannaught Place <h4>388 places</h4></span><br>
+            </div>
+        </section>
+
+
+        <!-- !GET THE APP -->
+
+        <section class="app ">
+
+            <div class="iphone ">
+                <img class="iphone_img " src="assets/images/Iphone.png " alt=" ">
+            </div>
+            <div class="get ">
+                <h1 class="h ">Get The Zomato App</h1><br>
+                <h6>Download the app from</h6>
+                <img class="play " src="assets/images/Google-Play.png " alt=" ">
+                <img class="play " src="assets/images/App-Store.png " alt=" ">
+
+            </div>
+
+
+
+        </section>
+
+    </div>
+
+
+    <script>
+        const input = document.getElementById('input');
+        const img = document.getElementById('img');
+
+        input.addEventListener('click', function(e) {
+            // e.preventDefault();
+            img.style.display = 'none';
+        })
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
